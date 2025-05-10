@@ -163,6 +163,7 @@ export interface Service {
    */
   icone: string;
   descricao: string;
+  user: string;
   updatedAt: string;
   createdAt: string;
 }
@@ -268,6 +269,7 @@ export interface ServicesSelect<T extends boolean = true> {
   titulo?: T;
   icone?: T;
   descricao?: T;
+  user?: T;
   updatedAt?: T;
   createdAt?: T;
 }

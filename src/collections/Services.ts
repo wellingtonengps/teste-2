@@ -35,6 +35,12 @@ const Services: CollectionConfig = {
       type: 'textarea',
       required: true,
     },
+    {
+      name: 'user',
+      label: 'User',
+      type: 'email',
+      required: true,
+    },
   ],
 }
 
